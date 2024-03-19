@@ -39,10 +39,14 @@ export default function Home() {
 <h1 className="font-serif font-medium text-3xl text-orange-800	">Nutrition</h1>
 <p className="text-lg">The table below shows nutritioal values per serving without the additinal fillings</p>
 
-<div className=" flex text-lg border-b-2 pb-3"><span className="w-20 h-5"></span> <p>Calories</p> <span className="w-10 h-5"></span> <span className="w-20 h-5"></span> <b className="text-orange-800">277kcal</b></div>
-<div className=" flex text-lg border-b-2 pb-3"><span className="w-20 h-5"></span> <p>Carbs </p> <span className="w-20 h-5"></span> <span className="w-20 h-5"></span><b className="text-orange-800"> 0g</b></div>
-<div className=" flex text-lg border-b-2 pb-3"><span className="w-20 h-5"></span> <p>Protein </p> <span className="w-20 h-5"></span> <span className="w-20 h-5"></span><b className="text-orange-800"> 20g</b></div>
-<div className=" flex text-lg pb-3"><span className="w-20 h-5"></span> <p>Fat </p> <span className="w-20 h-5"></span> <span className="w-20 h-5"></span> <b className="text-orange-800">22g</b></div>
+<table className=" text-xl ">
+<tr className="border-b-2">  <td className=" pl-11 pb-4">Calories</td><td className="text-orange-800 font-extrabold pl-48 pb-4"> 277kcal</td></tr>
+<tr className="border-b-2">  <td className=" pl-11 pb-4 pt-4">Carbs</td><td className="text-orange-800 font-extrabold pl-48 pb-4 pt-4"> 0g</td></tr>
+<tr className="border-b-2">  <td className=" pl-11 pb-4 pt-4">Protein</td><td className="text-orange-800 font-extrabold pl-48 pb-4 pt-4"> 20g</td></tr>
+<tr className="border-b-2">  <td className=" pl-11 pb-4 pt-4">Fat</td><td className="text-orange-800 font-extrabold pl-48 pb-4 pt-4"> 22g</td></tr>
+
+  
+</table>
 
    </div>
   );
