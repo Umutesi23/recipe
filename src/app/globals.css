@@ -27,4 +27,6 @@ body{
   font-family: sans-serif;
 }
 
-
+table{
+  width: 20vw;
+}

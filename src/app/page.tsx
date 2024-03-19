@@ -40,7 +40,7 @@ export default function Home() {
 <p className="text-lg">The table below shows nutritioal values per serving without the additinal fillings</p>
 
 <table className=" text-xl ">
-<tr className="border-b-2">  <td className=" pl-11 pb-4">Calories</td><td className="text-orange-800 font-extrabold pl-48 pb-4"> 277kcal</td></tr>
+<tr className="border-b-2">  <td className=" pl-11 pb-4">Calories</td><td className="text-orange-800 font-extrabold pl-48 pb-4"> 277kcal</td> <td className=" pr-14"></td></tr>
 <tr className="border-b-2">  <td className=" pl-11 pb-4 pt-4">Carbs</td><td className="text-orange-800 font-extrabold pl-48 pb-4 pt-4"> 0g</td></tr>
 <tr className="border-b-2">  <td className=" pl-11 pb-4 pt-4">Protein</td><td className="text-orange-800 font-extrabold pl-48 pb-4 pt-4"> 20g</td></tr>
 <tr className="border-b-2">  <td className=" pl-11 pb-4 pt-4">Fat</td><td className="text-orange-800 font-extrabold pl-48 pb-4 pt-4"> 22g</td></tr>
